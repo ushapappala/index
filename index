@@ -1,0 +1,61 @@
+Reset and layout / {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    }
+    html, body { 
+       height: 100%;    
+       overflow: hidden; /* Removes scrolling */  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    background-color: #f0f2f5; /* Light grey background */   
+    color: #0d21da;   
+    display: flex;   
+    flex-direction: column;    
+    align-items: center;    
+    justify-content: center;   
+    text-align: center;    
+    padding: 20px;
+}
+/* Headings */
+h1 { 
+  font-size: 2.4em;    
+  color: #7f0e9e;    
+  margin-bottom: 16px;
+}
+/* Paragraph */
+p {    
+    font-size: 1.1em;   
+    max-width: 700px;    
+    line-height: 1.5;   
+    margin-bottom: 20px;
+}
+    /* Image */
+    img {    
+        width: 300px;   
+        height: auto;   
+        border-radius: 8px;    
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);   
+        margin-bottom: 20px;
+    }
+    /* Links */
+    a {    
+        color: #0056b3;   
+        text-decoration: none;
+    }
+    a:hover {    
+        text-decoration: underline;
+    }
+    /* Button */
+    button {    
+        padding: 10px 24px;   
+        background-color: #007bff;    
+ color: #fff;   
+        border: none;   
+        border-radius: 6px;    
+        font-size: 1em;    
+        cursor: pointer;   
+        transition: background-color 0.2s ease;
+    }
+    button:hover {    
+        background-color: #0056b3;
+    }
